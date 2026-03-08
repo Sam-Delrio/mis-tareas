@@ -6,18 +6,18 @@
 
 ```
 lib/
-├── main.dart                    # Punto de entrada (equivale a main.tsx + App.tsx)
+├── main.dart                    # Punto de entrada 
 ├── models/
-│   └── task.dart                # Modelo de datos Task (equivale a interface Task en TS)
+│   └── task.dart                # Modelo de datos Task 
 ├── theme/
-│   └── app_theme.dart           # Colores, gradientes y widgets glass (equivale a theme.css)
+│   └── app_theme.dart           # Colores, gradientes y widgets glass 
 ├── widgets/
-│   ├── task_card.dart           # Tarjeta de tarea (equivale a TaskCard.tsx)
-│   └── bottom_nav.dart          # Barra de navegación (equivale a BottomNav.tsx)
+│   ├── task_card.dart           # Tarjeta de tarea 
+│   └── bottom_nav.dart          # Barra de navegación
 └── screens/
-    ├── home_screen.dart         # Pantalla principal (equivale a Home.tsx)
-    ├── add_task_screen.dart     # Agregar tarea (equivale a AddTask.tsx)
-    └── task_detail_screen.dart  # Detalle de tarea (equivale a TaskDetail.tsx)
+    ├── home_screen.dart         # Pantalla principal 
+    ├── add_task_screen.dart     # Agregar tarea
+    └── task_detail_screen.dart  # Detalle de tarea
 ```
 
 ---
