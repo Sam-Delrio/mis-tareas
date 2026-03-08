@@ -1,7 +1,5 @@
 # 📚 Task Manager Académico — Flutter
 
-Conversión del proyecto React/Tailwind a Flutter/Dart.
-
 ---
 
 ## 🗂️ Estructura del Proyecto
@@ -63,22 +61,6 @@ flutter devices
 | `flutter_animate` | ^4.5.0 | `motion/react` (animaciones) |
 | `intl` | ^0.19.0 | `Date.toLocaleDateString()` |
 
----
-
-## 🎨 Equivalencias de diseño
-
-| Tailwind/CSS | Flutter |
-|---|---|
-| `glass` (backdrop-filter blur) | `BackdropFilter` + `ImageFilter.blur()` |
-| `bg-gradient-to-r from-blue-600 to-cyan-500` | `LinearGradient(colors: [...])` |
-| `bg-clip-text` (texto gradiente) | `ShaderMask` con `LinearGradient` |
-| `rounded-3xl` | `BorderRadius.circular(24)` |
-| `shadow-lg shadow-blue-200/30` | `BoxShadow(color: ..., blurRadius: ...)` |
-| `motion initial={{ opacity: 0, y: 20 }}` | `.animate().fadeIn().slideY(...)` |
-| `localStorage` | `SharedPreferences` |
-| `useNavigate()` | `Navigator.push()` / `Navigator.pop()` |
-| `useState()` | `setState()` en StatefulWidget |
-| `useEffect()` | `initState()` |
 
 ---
 
